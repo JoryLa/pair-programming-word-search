@@ -1,10 +1,6 @@
-/*const wordSearch = (letters, word) => { 
-  const horizontalJoin = letters.map(ls => ls.join(''));
-  for (l of horizontalJoin) {
-    if (l.includes(word)) return true;
-  }
-  return false;
-};*/
+
+//MADE WITH PUNEET
+
 const transpose = function(matrix) {
   let newArr = [];
   for (let i = 0; i < matrix[0].length; i++) {
@@ -29,12 +25,3 @@ const wordSearch = (letters, word) => {
 };
 
 module.exports = wordSearch;
-
-/*const backwardJoin = letters.map(ls => ls.join(''));
-for (let i = letters.length -1; i <= 0 ; i--) {
-  module.exports = wordSearch;
-  const backwardJoin = letters.map(ls => ls.reverse().join(''));
-  for (let i = ) {
-      if (p.includes(word)) return true;
-    }
-    return false;*/
